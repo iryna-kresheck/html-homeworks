@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+
+.wrapper {
+	min-height: 100vh;
+	/*height: 100%;*/
+	padding-top: 20px;
+	width: 100%;		
+	background: silver;
+	/*font-family: Courier;*/
+}
+
+.header {
+	width: 40%;
+	height: 60%;
+	margin: 0 auto;
+	/*padding: 100px 0 0 100px;*/
+	/*padding-top: 100px;*/
+	/*padding-left: 100px;*/
+	background: white;	border: 2px solid black;
+}
+
+.name{
+	text-align: center;
+	padding-top: 5px;
+}
+
+.cat__ava {
+	max-width: 300px;
+	/*width: 40%;*/
+	/*height: 40%;*/
+	/*bad*/
+	/*margin-left: 39px;*/
+}		
+
+.ava-container {
+	text-align: center;
+}
+
+.main {
+	width: 60%;
+	margin: 0 auto;
+	/*bad*/
+	/*margin-left: 200px;*/
+	text-align: left;
+	border-bottom: 1px solid silver;
+	padding-bottom: 5px; 
+}
+
+.footer {
+	width: 60%;
+	margin: 0 auto 50px;
+	text-align: left;
+	/*bad*/
+	/*margin-left: 200px;*/
+}
+
+.lines {
+	margin-left: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+}
